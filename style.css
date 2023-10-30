@@ -1,0 +1,48 @@
+body{
+    background-color: #F5BAAB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titles{
+    color: #F5DEAB;
+    text-indent: 5%;
+} 
+.copyright{
+    color: white;
+}
+.image{
+    margin-left: 10%;
+    border: 2px solid #E6F5AB;
+}
+abbr{
+    text-decoration: none;
+}
+.lists{
+    color: white;
+    margin-left: 10%;
+    list-style-type: square;
+}
+.texts{
+    color: white;
+    margin-left: 10%;
+}
+.indented-paragraph {
+    margin-left: 10%;
+    white-space: pre-line;
+    color: white;
+}
+.text-links{
+    color: white;
+    margin-left: 10%;
+}
+.about-me{
+    color: #F5DEAB;
+    text-decoration-color: #F5DEAB;
+    text-decoration: none;
+}
+.h3-link{
+    color: #E6F5AB;
+    margin-left: 10%;
+}
+hr{
+    color: #E6F5AB;
+}
