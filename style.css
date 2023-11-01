@@ -4,14 +4,12 @@
 }
 .titles{
     color: #F5DEAB;
-    text-indent: 5%;
     text-align: center;
 } 
 #copyright{
     color: white;
 }
 img{
-    margin-left: 10%;
     border: 2px solid #E6F5AB;
 }
 abbr{
@@ -43,20 +41,24 @@ abbr{
 #footer {
     text-align: center;
 }
-.h3-link{
-    color: #E6F5AB;
+
+.project-container {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Wrap items onto a new line if the container is too narrow */
+}
+
+.project {
     margin-left: 10%;
 }
+
 #movie-ranking-project{
     color: #E6F5AB;
-    margin-left: 10%;
-    text-align: left;
 }
 #birthday-invite-project{
-    text-align: right;
-    color: #E6F5AB;
-    margin-left: 10%;
-    
+    color: #E6F5AB; 
 }
 hr{
     color: #E6F5AB;
