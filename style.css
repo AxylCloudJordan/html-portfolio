@@ -1,15 +1,16 @@
-body{
+*{
     background-color: #F5BAAB;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .titles{
     color: #F5DEAB;
     text-indent: 5%;
+    text-align: center;
 } 
-.copyright{
+#copyright{
     color: white;
 }
-.image{
+img{
     margin-left: 10%;
     border: 2px solid #E6F5AB;
 }
@@ -39,9 +40,23 @@ abbr{
     text-decoration-color: #F5DEAB;
     text-decoration: none;
 }
+#footer {
+    text-align: center;
+}
 .h3-link{
     color: #E6F5AB;
     margin-left: 10%;
+}
+#movie-ranking-project{
+    color: #E6F5AB;
+    margin-left: 10%;
+    text-align: left;
+}
+#birthday-invite-project{
+    text-align: right;
+    color: #E6F5AB;
+    margin-left: 10%;
+    
 }
 hr{
     color: #E6F5AB;
