@@ -36,10 +36,11 @@ abbr{
     color: #F5DEAB;
     text-decoration-color: #F5DEAB;
     text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-#footer {
-    text-align: center;
-    
+.footer {
+    text-align: center;  
 }
 
 .image-container {
