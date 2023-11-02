@@ -25,7 +25,6 @@ abbr{
     margin-left: 10%;
 }
 .indented-paragraph {
-    margin-left: 10%;
     white-space: pre-line;
     color: white;
 }
@@ -53,6 +52,24 @@ abbr{
 .project {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.movie-ranking-headers {
+    color: #E6F5AB;
+}
+
+.movie-genres {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.all-movies {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Wrap items onto a new line if the container is too narrow */
+}
 }
 
 #movie-ranking-project{
