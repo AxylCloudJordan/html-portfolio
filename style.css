@@ -25,9 +25,7 @@ abbr{
 
 .nav-container {
     background-color: #E6F5AB;
-    justify-content: space-between;
-    padding: 10px 10%;
-    display: flex;
+    padding: 0;
 }
 
 .menu-list {
@@ -35,9 +33,9 @@ abbr{
     list-style: none;
     text-align: center;
     background-color: #E6F5AB;
-    padding: 0;
     display: block;
     margin: 0;
+    
 }
 
 .menu-items {
@@ -50,8 +48,9 @@ abbr{
 }
 
 .list-link {
-    color: #F5DEAB;
+    color: #F5BAAB;
     text-decoration: none;
+    background-color: #E6F5AB;
 }
 .texts{
     color: white;
