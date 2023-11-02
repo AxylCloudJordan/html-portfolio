@@ -11,13 +11,14 @@
 }
 img{
     border: 2px solid #E6F5AB;
+    text-align: center;
 }
 abbr{
     text-decoration: none;
 }
 .lists{
     color: white;
-    margin-left: 10%;
+    
     list-style-type: square;
 }
 .texts{
@@ -30,7 +31,6 @@ abbr{
 }
 .text-links{
     color: white;
-    margin-left: 10%;
 }
 .about-me{
     color: #F5DEAB;
@@ -39,8 +39,12 @@ abbr{
 }
 #footer {
     text-align: center;
+    
 }
 
+.image-container {
+    text-align: center;
+}
 .project-container {
     display: flex; 
     justify-content: center;
@@ -54,7 +58,7 @@ abbr{
     margin-right: 5%;
 }
 
-.movie-ranking-headers {
+.headers {
     color: #E6F5AB;
 }
 
@@ -70,6 +74,17 @@ abbr{
     align-items: center; /* Center items vertically */
     flex-wrap: wrap; /* Wrap items onto a new line if the container is too narrow */
 }
+
+.to-dos {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.birthday-instructions {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap; /* Wrap items onto a new line if the container is too big for page */
 }
 
 #movie-ranking-project{
