@@ -18,8 +18,40 @@ abbr{
 }
 .lists{
     color: white;
-    
     list-style-type: square;
+}
+
+
+
+.nav-container {
+    background-color: #E6F5AB;
+    justify-content: space-between;
+    padding: 10px 10%;
+    display: flex;
+}
+
+.menu-list {
+    color: #F5DEAB;
+    list-style: none;
+    text-align: center;
+    background-color: #E6F5AB;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+
+.menu-items {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #F5DEAB;
+    background-color: #E6F5AB;
+    padding: 10px;
+}
+
+.list-link {
+    color: #F5DEAB;
+    text-decoration: none;
 }
 .texts{
     color: white;
