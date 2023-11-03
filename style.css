@@ -1,34 +1,37 @@
-*{
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
     background-color: #F5BAAB;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .titles{
     color: #F5DEAB;
     text-align: center;
 } 
+
 #copyright{
     color: white;
 }
+
 img{
     border: 2px solid #E6F5AB;
     text-align: center;
 }
+
 abbr{
     text-decoration: none;
 }
+
 .lists{
     color: white;
     list-style-type: square;
 }
 
-
-
-.nav-container {
-    background-color: #E6F5AB;
-    padding: 0;
-}
-
-.menu-list {
+nav ul {
     color: #F5DEAB;
     list-style: none;
     text-align: center;
@@ -38,7 +41,7 @@ abbr{
     
 }
 
-.menu-items {
+nav li {
     margin-left: 5px;
     margin-right: 5px;
     display: inline-block;
@@ -47,19 +50,22 @@ abbr{
     padding: 10px;
 }
 
-.list-link {
+nav li a {
     color: #F5BAAB;
     text-decoration: none;
     background-color: #E6F5AB;
 }
+
 .texts{
     color: white;
     margin-left: 10%;
 }
+
 .indented-paragraph {
     white-space: pre-line;
     color: white;
 }
+
 .text-links{
     color: white;
 }
@@ -76,6 +82,7 @@ abbr{
 
 .image-container {
     text-align: center;
+    width: 100%;
 }
 .project-container {
     display: flex; 
@@ -120,7 +127,8 @@ abbr{
 }
 
 #birthday-cake {
-    width: 75%
+    max-width: 100%;
+    
 }
 
 #movie-ranking-project{
