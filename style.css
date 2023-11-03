@@ -140,3 +140,15 @@ nav li a {
 hr{
     color: #E6F5AB;
 }
+
+address {
+    color:white;
+    font-style: normal;
+    white-space: pre-line;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
