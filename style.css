@@ -119,6 +119,10 @@ abbr{
     flex-wrap: wrap; /* Wrap items onto a new line if the container is too big for page */
 }
 
+#birthday-cake {
+    width: 75%
+}
+
 #movie-ranking-project{
     color: #E6F5AB;
 }
